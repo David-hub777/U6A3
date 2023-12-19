@@ -21,6 +21,7 @@ public class GeneratePdfReport {
 
     private static final Logger logger = LoggerFactory.getLogger(GeneratePdfReport.class);
 
+    
     public static ByteArrayInputStream citiesReport(List<City> cities) {
 
         Document document = new Document();
